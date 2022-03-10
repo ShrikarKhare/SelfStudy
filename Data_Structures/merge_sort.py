@@ -32,6 +32,7 @@ def merge_sort(list):
 
     def merge(left,right):
         '''
+        
         Merges two lists, sorting them in the process
         Returns a new merged list
         
