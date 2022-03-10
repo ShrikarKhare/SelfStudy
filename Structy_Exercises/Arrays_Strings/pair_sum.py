@@ -13,14 +13,14 @@ test_02:
 pair_sum([4, 7, 9, 2, 5, 1], 3) # -> (3, 5)
 '''
 def pair_sum(numbers, target):
-    previous = {}
+    seen = {}
 
     for i, num in enumerate(numbers):
         complement = target - num 
-        if complement in previous:
-            return (i, previous[complement])
-        previous[num] = i 
-    
+        if complement in seen:
+            return (i, seen[complement])
+        seen[num] = i 
+
 print(pair_sum([4, 7, 9, 2, 5, 1], 5))
 
 '''
