@@ -35,12 +35,13 @@ class Node:
     self.next = None
 
 def linkedListFind(head, target):
-    current = head 
-    while current:
-        if current.val == target:
+    if head is None: return False
+    while head:
+        if head.val == target:
             return True
-        current = current.next
+        head = head.next
     return False
+
 a = Node("a")
 b = Node("b")
 c = Node("c")
