@@ -56,3 +56,8 @@ b.next = c
 c.next = d
 
 print(get_node_value(a, 3))
+
+'''
+Time Complexity: O(n)
+Space Complexity: O(1)
+'''
