@@ -22,3 +22,9 @@ def create_linked_list(values):
         current.next = Node(i)
         current = current.next
     return head.next
+
+
+'''
+Time Complexity: O(n)
+Space Complexity: O(n)
+'''
