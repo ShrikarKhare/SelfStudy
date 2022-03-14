@@ -42,20 +42,21 @@ class Node:
 def merge_list(head_1, head_2):
     dummy = Node(None)
     tail = dummy 
-    current_head1 = head_1
-    current_head2 = head_2
-    while current_head1 and current_head2:
-        if current_head1.val < current_head2.val:
-            tail.next = current_head1
-            current_head1 = current_head1.next
+    current_1 = head_1
+    current_2 = head_2
+    while current_1 and current_2:
+        if current_1.val < current_2.val:
+            tail.next = current_1
+            current_1 = current_1.next
         else:
-            tail.next = current_head2
-            current_head2 = current_head2.next
+            tail.next = current_2
+            current_2 = current_2.next
         tail = tail.next 
-    if current_head1 is not None: tail.next = current_head1
-    if current_head2 is not None: tail.next = current_head2
-    return dummy.next
+    if current_1 is not None: tail.next = current_1
+    if current_2 is not None: tail.next = current_2
 
+    return dummy.next
+    
 a = Node(5)
 b = Node(7)
 c = Node(10)
