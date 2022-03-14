@@ -10,7 +10,7 @@ test_01:
 create_linked_list([1, 7, 1, 8])
 # 1 -> 7 -> 1 -> 8
 '''
-class Node(self,val):
+class Node:
     def __init__(self, val):
         self.val = val 
         self.next = None
