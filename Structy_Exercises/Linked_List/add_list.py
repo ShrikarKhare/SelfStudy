@@ -89,3 +89,11 @@ def add_lists(head_1, head_2):
         if current_1: current_1 = current_1.next
         if current_2: current_2 = current_2.next
     return dummy.next 
+
+
+    '''
+    m: list 1 length
+    n: list 2 length
+    Time Complexity: O(max(m,n))
+    Space Complexity: O(max(m,n))
+    '''
