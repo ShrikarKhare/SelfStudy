@@ -89,3 +89,9 @@ e.left = g
 e.right = h
 
 print(bottom_right_value(a))
+
+'''
+n: number of nodes
+Time Complexity: O(n)
+Space Complexity: O(n)
+'''

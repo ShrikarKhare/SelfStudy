@@ -92,3 +92,9 @@ e.left = f
 e.right = g
 
 print(level_averages(a))
+
+'''
+n : number of nodes
+Time Complexity: O(n)
+Space Complexity: O(n)
+'''

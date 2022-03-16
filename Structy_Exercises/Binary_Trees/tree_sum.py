@@ -98,3 +98,9 @@ f.right = h
 
 
 print(tree_sum(a))
+
+'''
+n : number of nodes
+Time Complexity: O(n)
+Space Complexity: O(n)
+'''
