@@ -62,8 +62,8 @@ def bounds(grid, r, c):
     return rowbound and colbound
 
 grid = [
-  ['W', 'W', 'W', 'W', 'W'],
-  ['W', 'W', 'W', 'W', 'W'],
+  ['W', 'L', 'W', 'W', 'W'],
+  ['W', 'L', 'W', 'W', 'W'],
   ['W', 'W', 'W', 'L', 'W'],
   ['W', 'W', 'L', 'L', 'W'],
   ['L', 'W', 'W', 'L', 'L'],
@@ -71,3 +71,10 @@ grid = [
 ]
 
 print(minimum_island(grid))
+
+'''
+r : number of rows
+c : number of columns
+Time Complexity: O(r*c)
+Space Complexity: O(r*c)
+'''
