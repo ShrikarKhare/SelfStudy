@@ -48,3 +48,8 @@ grid = [
   ["O", "O", "O"],
 ]
 print(count_paths(grid))
+
+'''
+Time Complexity: O(r*c)
+Space Complexity: O(r*c)
+'''
