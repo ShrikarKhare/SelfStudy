@@ -61,3 +61,10 @@ graph = {
 }
 
 print(longest_path(graph))
+
+'''
+e: number of edges
+n: number of nodes
+Time Complexity: O(e)
+Space COmplexity: O(n)
+'''
