@@ -28,3 +28,10 @@ def _sum_possible(amount, numbers, memo):
 
 print(sum_possible(8, [5, 12, 4])) # -> True, 4 + 4
 print(sum_possible(15, [6, 2, 10, 19])) # -> False) 
+
+'''
+a: amount
+n: numbers
+Time Complexity: O(a*c)
+Space Complexity: O(a)
+'''

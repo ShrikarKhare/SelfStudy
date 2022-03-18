@@ -40,3 +40,10 @@ def _counting_change(amount, coins, i, memo):
 
 print(counting_change(4, [1, 2, 3]))
 print(counting_change(8, [1, 2, 3]))
+
+'''
+a : amount
+c : coins
+Time Complexity: O(a*c)
+Space Complexity: O(a*c)
+'''

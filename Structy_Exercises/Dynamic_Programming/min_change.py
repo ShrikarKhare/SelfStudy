@@ -34,6 +34,8 @@ print(min_change(13, [1, 9, 5, 14, 30]))
 
 
 '''
-Time Complexity: O(n)
-Space Complexity: O(n)
+a: amount
+c: coins
+Time Complexity: O(a*c)
+Space Complexity: O(a)
 '''
