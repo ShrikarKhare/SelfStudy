@@ -37,3 +37,9 @@ def _array_stepper(numbers, i ,memo):
 
 print(array_stepper([2, 4, 2, 0, 0, 1])) # -> True
 print(array_stepper([2, 3, 2, 0, 0, 1])) # -> False
+
+'''
+n: len numbers
+Time Complexity: O(n^2)
+Space Complexity: O(n)
+'''

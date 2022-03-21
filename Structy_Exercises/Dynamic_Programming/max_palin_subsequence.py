@@ -27,3 +27,9 @@ def _max_palin_subsequence(string, i, j, memo):
     return memo[key]
 
 print(max_palin_subsequence("xyzaxxzy"))
+
+'''
+n: len of string
+Time Complexity: O(n^2)
+Space Complexity: O(n^2)
+'''
